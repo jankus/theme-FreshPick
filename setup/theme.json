@@ -6,11 +6,11 @@
     "author": "Audrius Jankauskas (ImpressPages)",
     "widget": { /* Image cropping settings for widgets. Require theme reinstall to take affect. */
         "image": {
-            "width": 1180,
+            "width": 956,
             "height": 400
         },
         "gallery": {
-            "width": 295,
+            "width": 224,
             "height": 164
         }
     },
@@ -19,13 +19,13 @@
             "label": "Text color",
             "name": "textColor",
             "type": "color",
-            "default": "#000"
+            "default": "#737373"
         },
         {
             "label": "Link color",
             "name": "linkColor",
             "type": "color",
-            "default": "#019bd4"
+            "default": "#7AA300"
         },
         {
             "label": "Body background color",

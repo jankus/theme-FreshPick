@@ -41,6 +41,10 @@ Move to separate stylesheet if invalid CSS is a problem.
 .ipModuleForm.form-horizontal .form-group:after {
   clear: both;
 }
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
 html,
 body {
   border: none;
@@ -48,7 +52,7 @@ body {
   padding: 0;
 }
 .quote {
-  color: #000000;
+  color: #737373;
   display: block;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 24px;
@@ -62,24 +66,24 @@ body {
   border-left-color: #747474;
   border-left-style: solid;
   border-left-width: 2px;
-  color: #000000;
+  color: #737373;
   display: block;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: "Noticia text", Serif;
+  font-size: 16px;
   font-style: italic;
   font-weight: normal;
   margin-bottom: 1em;
   padding-left: 1em;
 }
 .button {
-  background-color: #019bd4;
-  border-radius: 5px;
+  background-color: #7aa300;
+  border-radius: 0;
   color: #ffffff;
   cursor: pointer;
   display: inline-block;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Noticia text", Serif;
   font-weight: bold;
-  padding: 0.5em 1em 0.5em 1em;
+  padding: 0 0 0 0;
   text-decoration: none;
 }
 .ipWidget {
@@ -89,9 +93,9 @@ The following zoom:1 rule is specifically for IE6 + IE7.
 Move to separate stylesheet if invalid CSS is a problem.
 */
   zoom: 1;
-  color: #000000;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 14px;
+  color: #737373;
+  font-family: "Noticia text", Serif;
+  font-size: 16px;
   margin-bottom: 20px;
 }
 .ipWidget:before,
@@ -132,7 +136,7 @@ Move to separate stylesheet if invalid CSS is a problem.
   margin-bottom: 0;
 }
 .ipWidget .quote {
-  color: #000000;
+  color: #737373;
   display: block;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 24px;
@@ -146,21 +150,21 @@ Move to separate stylesheet if invalid CSS is a problem.
   border-left-color: #747474;
   border-left-style: solid;
   border-left-width: 2px;
-  color: #000000;
+  color: #737373;
   display: block;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: "Noticia text", Serif;
+  font-size: 16px;
   font-style: italic;
   font-weight: normal;
   margin-bottom: 1em;
   padding-left: 1em;
 }
 .ipWidget .button {
-  background-color: #019bd4;
-  border-radius: 5px;
+  background-color: #7aa300;
+  border-radius: 0;
   color: #ffffff;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  padding: 0.5em 1em 0.5em 1em;
+  font-family: "Noticia text", Serif;
+  padding: 0 0 0 0;
   height: 42px;
   background: #3695c6;
   border: 1px solid #1C89C4;
@@ -185,18 +189,18 @@ Move to separate stylesheet if invalid CSS is a problem.
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
 }
 .ipWidget h1 {
-  color: #000000;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 36px;
+  color: #1e83b6;
+  font-family: Domine, Serif;
+  font-size: 60px;
 }
 .ipWidget h2 {
-  color: #000000;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #737373;
+  font-family: Domine, Serif;
   font-size: 30px;
 }
 .ipWidget h3 {
-  color: #000000;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #737373;
+  font-family: Domine, Serif;
   font-size: 24px;
 }
 .ipWidget ul {
@@ -209,7 +213,7 @@ Move to separate stylesheet if invalid CSS is a problem.
   margin: 0 0 1em 1em;
 }
 .ipWidget p {
-  line-height: 1.5;
+  line-height: 1.9;
   margin-bottom: 1em;
 }
 .ipWidget ul ul,
@@ -217,7 +221,7 @@ Move to separate stylesheet if invalid CSS is a problem.
   margin-bottom: 0;
 }
 .ipWidget li {
-  line-height: 1.5;
+  line-height: 1.9;
   margin-bottom: 5px;
 }
 .ipWidget p + ul,
@@ -225,7 +229,7 @@ Move to separate stylesheet if invalid CSS is a problem.
   margin-top: -0.5em;
 }
 .ipWidget a {
-  color: #019bd4;
+  color: #7aa300;
   text-decoration: none;
 }
 .ipWidget a:hover {
@@ -233,9 +237,9 @@ Move to separate stylesheet if invalid CSS is a problem.
 }
 .ipWidget table {
   border-collapse: collapse;
-  color: #000000;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 14px;
+  color: #737373;
+  font-family: "Noticia text", Serif;
+  font-size: 16px;
   margin-bottom: 1em;
   width: 100%;
 }
@@ -245,20 +249,20 @@ Move to separate stylesheet if invalid CSS is a problem.
 }
 .ipWidget td {
   border-bottom: 1px solid #747474;
-  font-size: 14px;
+  font-size: 16px;
   padding: 9px;
 }
 .ipWidget th,
 .ipWidget thead td,
 .ipWidget tbody tr:first-child td {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
 }
 .ipWidget thead + tbody tr:first-child td {
   background-color: transparent;
   border-bottom: 1px solid #8e8e8e;
   color: inherit;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
 }
 .ipWidget p:last-child,
@@ -276,8 +280,8 @@ Move to separate stylesheet if invalid CSS is a problem.
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: 21px;
-  font-size: 21px;
+  margin-bottom: 30px;
+  font-size: 24px;
   line-height: inherit;
   color: #000000;
   border: 0;
@@ -321,17 +325,17 @@ Move to separate stylesheet if invalid CSS is a problem.
 .ipModuleForm output {
   display: block;
   padding-top: 7px;
-  font-size: 14px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.9;
   color: #000000;
 }
 .ipModuleForm .form-control {
   display: block;
   width: 100%;
-  height: 35px;
+  height: 44px;
   padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.9;
   color: #000000;
   background-color: #ffffff;
   background-image: none;
@@ -372,7 +376,7 @@ textarea.ipModuleForm .form-control {
   -webkit-appearance: none;
 }
 .ipModuleForm input[type="date"] {
-  line-height: 35px;
+  line-height: 44px;
 }
 .ipModuleForm .form-group {
   margin-bottom: 15px;
@@ -380,7 +384,7 @@ textarea.ipModuleForm .form-control {
 .ipModuleForm .radio,
 .ipModuleForm .checkbox {
   display: block;
-  min-height: 21px;
+  min-height: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 20px;
@@ -434,16 +438,16 @@ fieldset[disabled] .ipModuleForm .checkbox-inline {
   position: relative;
 }
 .ipModuleForm .has-feedback .form-control {
-  padding-right: 43.75px;
+  padding-right: 55px;
 }
 .ipModuleForm .has-feedback .form-control-feedback {
   position: absolute;
-  top: 26px;
+  top: 35px;
   right: 0;
   display: block;
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
   text-align: center;
 }
 .ipModuleForm .has-success .help-block,
@@ -579,7 +583,7 @@ fieldset[disabled] .ipModuleForm .checkbox-inline {
 }
 .ipModuleForm .form-horizontal .radio,
 .ipModuleForm .form-horizontal .checkbox {
-  min-height: 28px;
+  min-height: 37px;
 }
 .ipModuleForm .form-horizontal .form-group {
   margin-left: -20px;
@@ -615,8 +619,8 @@ fieldset[disabled] .ipModuleForm .checkbox-inline {
 }
 .ipModuleForm .progress {
   overflow: hidden;
-  height: 21px;
-  margin-bottom: 21px;
+  height: 30px;
+  margin-bottom: 30px;
   background-color: #f5f5f5;
   border-radius: 3px;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -627,10 +631,10 @@ fieldset[disabled] .ipModuleForm .checkbox-inline {
   width: 0%;
   height: 100%;
   font-size: 12px;
-  line-height: 21px;
+  line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background-color: #019bd4;
+  background-color: #7aa300;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -657,7 +661,7 @@ fieldset[disabled] .ipModuleForm .checkbox-inline {
   max-width: 380px;
 }
 .ipModuleForm textarea.form-control {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Noticia text", Serif;
   height: 10em;
 }
 .ipModuleForm .progress {
@@ -675,6 +679,9 @@ fieldset[disabled] .ipModuleForm .checkbox-inline {
   width: 50%;
   z-index: 1;
 }
+.ipModuleForm .form-group:hover .help-hint {
+  display: block;
+}
 .ipModuleForm .help-error {
   background-color: #b80000;
   color: #fff;
@@ -685,9 +692,6 @@ fieldset[disabled] .ipModuleForm .checkbox-inline {
   width: 100%;
 }
 .ipModuleForm .has-error .help-error {
-  display: block;
-}
-.ipModuleForm .form-group:hover .help-hint {
   display: block;
 }
 .ipModuleForm .captcha img {
@@ -758,7 +762,7 @@ fieldset[disabled] .ipModuleForm .checkbox-inline {
   white-space: nowrap;
   padding: 6px 12px;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.9;
   border-radius: 3px;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -766,19 +770,19 @@ fieldset[disabled] .ipModuleForm .checkbox-inline {
   user-select: none;
 }
 .ipModuleForm .btn-default {
-  background: #019bd4;
+  background: #7aa300;
   border: none;
   border-radius: 3px;
   color: #ffffff;
   cursor: pointer;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Noticia text", Serif;
   font-weight: bold;
   margin: 0;
   padding: 0.5em 1em;
 }
 .ipModuleForm .btn-default:hover {
-  box-shadow: 0 0 0 1px #019bd4 inset;
-  background: #01516e;
+  box-shadow: 0 0 0 1px #7aa300 inset;
+  background: #2e3d00;
 }
 @media (min-width: 768px) {
   .ipModuleForm.form-inline .form-group {
@@ -826,7 +830,7 @@ fieldset[disabled] .ipModuleForm .checkbox-inline {
 }
 .ipModuleForm.form-horizontal .radio,
 .ipModuleForm.form-horizontal .checkbox {
-  min-height: 28px;
+  min-height: 37px;
 }
 .ipModuleForm.form-horizontal .form-group {
   margin-left: -20px;
@@ -912,10 +916,10 @@ fieldset[disabled] .ipModuleForm .checkbox-inline {
 .breadcrumb > li + li:before {
   content: "/\00a0";
   padding: 0 0.5em;
-  color: #000000;
+  color: #737373;
 }
 .breadcrumb > .active {
-  color: #000000;
+  color: #737373;
 }
 .ipWidget-Columns ._container {
   margin: 0 -10px;
@@ -951,7 +955,7 @@ fieldset[disabled] .ipModuleForm .checkbox-inline {
   margin-left: 0;
 }
 .ipWidget-File a {
-  color: #019bd4;
+  color: #7aa300;
   font-weight: bold;
 }
 .ipWidget-File a:hover {
@@ -1023,7 +1027,7 @@ fieldset[disabled] .ipModuleForm .checkbox-inline {
   margin-top: 0;
 }
 .ipWidget-Heading a {
-  color: #000000;
+  color: #737373;
   text-decoration: inherit;
 }
 .ipWidget-Heading a:hover {
@@ -1851,20 +1855,15 @@ legend span {
   padding: 0;
   width: 100%;
 }
-header {
-  position: relative;
-  height: 204px;
-}
 #title-section {
   margin-bottom: 24px;
   padding-bottom: 5px;
   border-bottom: 1px dotted #D5D5D7;
 }
 #content {
+  margin-bottom: 54px !important;
   margin-top: 54px !important;
   /* 23px padding bottom + 1px bottom border = 24px */
-  padding-bottom: 23px;
-  border-bottom: 1px solid #e4e3e3;
 }
 #sidebar {
   color: #8b8b8b;
@@ -1972,11 +1971,10 @@ header hgroup h3 {
 }
 /* Primary Navigation ----------------------------------------------- */
 header #nav-wrap {
-  position: absolute;
   left: 0;
-  top: 168px;
   width: 100%;
   border-bottom: 1px solid #e4e3e3;
+  margin-top: 100px;
 }
 #menu {
   height: 36px;
@@ -2036,6 +2034,7 @@ header #nav-wrap {
   -o-transition: opacity .25s ease .1s;
   -ms-transition: opacity .25s ease .1s;
   transition: opacity .25s ease .1s;
+  z-index: 1021;
 }
 #menu ul li {
   float: none;
@@ -2483,19 +2482,15 @@ footer a {
 }
 footer .footer-logo {
   /* 40px + 4px + 10px = 54px */
-  height: 40px;
   margin-top: 4px;
   margin-bottom: 10px;
 }
 footer .footer-logo a {
-  width: 163px;
-  height: 40px;
-  border: none;
-  margin-top: 0;
-  padding: 0;
-  position: relative;
-  top: -6px;
+  color: #2391c9;
+  font-size: 34px;
+  font-weight: bold;
 }
+footer .ipWidget h3,
 footer h3 {
   font-family: Sans-Serif;
   font-size: 15px;
@@ -2640,4 +2635,15 @@ footer ul.photostream li a {
 }
 #go-top a:hover {
   background-color: #1E83B6;
+}
+.logo {
+  margin-left: 10px;
+  margin-top: 56px;
+}
+.logo a {
+  color: #2391c9;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 49px;
+  font-weight: bold;
+  letter-spacing: -1px;
 }
